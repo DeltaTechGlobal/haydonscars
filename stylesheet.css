@@ -1,0 +1,223 @@
+body {
+	
+	margin:0px;
+	padding:0px;
+}
+
+#container {
+
+margin: 0px auto;
+background-color: #ffffff;
+width: 100%;
+
+
+}
+
+#content {
+margin-left: auto;
+margin-right: auto;
+margin-top: -16px;
+padding: 10px 10px 10px 10px;
+width: 960px;
+border-style: solid;
+border-color:#787373;
+border-top: none;
+border-width:1px;
+}
+
+
+
+
+
+#header {
+
+
+width: 100%;
+
+}
+
+
+
+
+
+
+#left {
+width: 480px;
+float: left;
+padding: 0px 0px 0px 0px;
+margin: -16px 0px -5px 0px;
+ackground-color: #3b3e3b;
+}
+
+
+#right {
+
+float: right;
+padding: 0px 0px 0px 0px;
+margin: -16px 0px 0px 0px;
+
+}
+
+
+
+
+#touch {
+padding: -10px 10px 10px 10px;
+
+}
+
+ooter {
+
+clear: both;
+padding: 5px 0px 5px 0px;
+margin: 0px 0px 0px 0px;
+font-family: Verdana, Geneva, sans-serif;
+
+background-color: #3b3e3b;
+
+}
+
+
+#footer {
+
+font-family: Verdana, Geneva, sans-serif;
+padding: 5px 0px 5px 0px;
+background-color: #0055ff;
+width: 100%;
+margin-top: -15px;
+}
+
+
+
+
+
+
+ p {
+
+
+font-family: Verdana, Geneva, sans-serif;
+color: #363638;
+
+}
+
+#footer p {
+
+font-size: 75%;
+color: #c0c8c0;
+}
+
+
+
+
+
+
+h1 {
+
+font-family: Verdana, Geneva, sans-serif;
+font-weight: normal;
+text-align: center;
+color: #202021;
+font-size: 140%;
+
+
+}
+
+
+
+h2 {
+
+font-family: Verdana, Geneva, sans-serif;
+font-weight: normal;
+color: #202021;
+font-size: 140%;
+
+
+
+}
+
+h3 {
+
+font-family: Verdana, Geneva, sans-serif;
+font-weight: normal;
+color: #202021;
+font-size: 140%;
+
+
+}
+
+h4 {
+
+font-family: Verdana, Geneva, sans-serif;
+font-weight: bold;
+color: #3b48f7;
+text-align: center;
+
+
+}
+
+
+h5 {
+
+font-family: Verdana, Geneva, sans-serif;
+font-weight: normal;
+text-align: center;
+}
+
+
+#nav {
+
+
+background-color: #0055ff;
+width: 100%;
+margin-top: -15px;
+}
+
+#nav ul {
+
+padding: 5px 0px 6px 0px;
+
+}
+
+#nav li {
+
+
+padding: 0px 0px 0px 140px;
+list-style: none;
+display: inline;
+
+}
+
+#nav li a {
+
+color: #ffffff;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 90%;
+text-decoration: none;
+
+}
+
+#touch a {
+
+text-decoration: none;
+}
+
+
+
+ul li {
+color: #4b4b4e;
+font-family: Verdana, Geneva, sans-serif;
+}
+
+ul li a {
+
+padding: 6px 7px 7px 7px;
+background-color: #0353f3;
+}
+
+ul li a:hover
+{ 
+background-color: #fd1212;
+}
+
+
+
