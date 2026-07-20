@@ -24,6 +24,7 @@
           <li><a href="index.html#features">Features</a></li>
           <li><a href="index.html#how-it-works">How it Works</a></li>
           <li><a href="index.html#about">About Us</a></li>
+          <li><a href="https://customer.haydonscars.co.uk/" target="_blank" rel="noopener noreferrer" class="navbar__link--blue">Web Customer App</a></li>
         </ul>
       </nav>
       <a href="tel:02085404455" class="btn btn--primary">020 8540 4455</a>
@@ -250,14 +251,14 @@
       <div class="footer__col footer__col--app">
         <h4>Download the App</h4>
         <div class="footer__store-btns">
-          <a href="https://play.google.com/store/apps/details?id=com.cds.haydonscars&hl=en_GB" class="store-btn store-btn--sm">
+          <a href="https://play.google.com/store/apps/details?id=co.uk.haydonscars.app.v2" class="store-btn store-btn--sm">
             <i class="fa-brands fa-google-play"></i>
             <span>
               <small>Get it on</small>
               Google Play
             </span>
           </a>
-          <a href="https://itunes.apple.com/us/app/haydons-cars/id803942053?ls=1&mt=8" class="store-btn store-btn--sm">
+          <a href="https://apps.apple.com/app/haydons-cars-booking-app/id6762903404" class="store-btn store-btn--sm">
             <i class="fa-brands fa-apple"></i>
             <span>
               <small>Download on the</small>
@@ -269,7 +270,8 @@
     </div>
     <div class="footer__bottom">
       <div class="container footer__bottom-inner">
-        <p>© 2026 Haydons Cars, 331 Haydons Rd, Wimbledon, London SW19 8LA. All Rights Reserved.</p>
+        <p>© <span class="auto-year"></span> Haydons Cars, 331 Haydons Rd, Wimbledon, London SW19 8LA. All Rights Reserved.</p>
+        <p>Made and managed by <a href="https://en.biz168.org/" target="_blank" rel="noopener">BIZ168</a></p>
         <div class="footer__bottom-links">
           <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
           <a href="privacy-policy.html">Privacy Policy</a>
@@ -278,5 +280,18 @@
     </div>
   </footer>
 
+  <script>
+    function updateCopyrightYear() {
+      var year = new Date().getFullYear();
+      document.querySelectorAll('.auto-year').forEach(function(el) {
+        el.textContent = year;
+      });
+    }
+    document.addEventListener('DOMContentLoaded', updateCopyrightYear);
+  </script>
 </body>
 </html>
+<!-- PHONE CTA (floating) - icon only -->
+<a href="tel:02085404455" class="phone-cta phone-cta--icon-only" aria-label="Call Haydons Cars">
+  <i class="fa-solid fa-phone"></i>
+</a>
